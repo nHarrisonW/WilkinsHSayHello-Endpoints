@@ -2,7 +2,8 @@
 //10-26-2022
 //SAY HELLO - ENDPOINTS
 //THIS CONTROLLER WILL CONTROL ALL ENDPOINTS WITHIN THE PROJECT,  WILL WORK WITH WEB API'S
-//PEER REVIEW BY : 
+//PEER REVIEW BY : Jessie Lamzon
+//Code worked well and ran without any errors.  Nice, simple, and clean code. Well done good job!
 
 
 using Microsoft.AspNetCore.Mvc;
@@ -17,6 +18,6 @@ public class SayingHelloController : ControllerBase
         [Route("username/{userName}")]
     public string Hello(string userName)
     {
-        return $"HELLO /{userName}! NICE TO MEET YOU!";
+        return $"HELLO {userName}! NICE TO MEET YOU!";
     }
 }
