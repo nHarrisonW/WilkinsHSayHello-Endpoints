@@ -25,7 +25,7 @@ This would output : HELLO Timothy!
 
 If your URL doesn't look like one of these options , check to make sure your routes in the URL match , URL's ARE CASE SENSITIVE!
 
-If you would like to generate a new response , simply replace the name at the end of the URL with different numbers and press "ENTER" on your keyboard or "SEND" on your Postman Desktop App once again , it should continue to produce a response every time until the API is stopped or the URL is changed
+If you would like to generate a new response , simply replace the name at the end of the URL and press "ENTER" on your keyboard or "SEND" on your Postman Desktop App once again , it should continue to produce a response every time until the API is stopped or the URL is changed
 
 To stop the API , go back to your Virtual Studio Code and click the red square in the middle of the top of your window
 
